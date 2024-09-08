@@ -11,11 +11,12 @@ import helveticaNeue from '@capsizecss/metrics/helveticaNeue';
 import helvetica from '@capsizecss/metrics/helvetica';
 
 // Add your font here: 1st font is core, next font should be system fonts
-const stack = createFontStack([
-    nunito,
-    arial,
-    helveticaNeue,
-    helvetica
-])
+const stack = createFontStack(
+    [
+        nunito,
+        arial,
+        helveticaNeue,
+        helvetica
+    ])
 
 console.log(stack.fontFaces);

@@ -2,7 +2,7 @@
 
 1. Go to `main.js` and import your fonts from `import yourFont from '@capsizecss/metrics/your-font'`
 2. Add each imported font to `createFontStack` array
-3. First font should be you external fonts for fallback
+3. First font should be you external fonts for fallback. Order should be same as in you css. Example: `font-family: Nunito, Arial, Helvetica`
 3. Run `npm run dev` and check you browser console to receive generated fontFaces for each your font
 
 #### Sources:
